@@ -1,0 +1,32 @@
+body {
+    font-family: 'PT Serif', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     min-height: 100vh; 
+     margin: 0;
+     background-color: #f0f0f0; 
+  }
+  
+  .container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px;
+  }
+ 
+  blockquote {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  

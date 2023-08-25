@@ -6,9 +6,9 @@ button.addEventListener('click', () => {
   const taskText = inputTask.value;
 
   if(taskText !== '') {
-    const li = document.createElement('li');
-    li.textContent = taskText;
-    addList.appendChild(li);
-    inputTask.textContent = '';
+      const li = document.createElement('li');
+      li.textContent = taskText;
+      addList.appendChild(li);
+      inputTask.textContent = '';
   }
 })
